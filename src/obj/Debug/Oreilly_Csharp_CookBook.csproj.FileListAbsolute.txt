@@ -1,0 +1,15 @@
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\bin\Debug\Oreilly_Csharp_CookBook.exe.config
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\bin\Debug\Oreilly_Csharp_CookBook.exe
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\bin\Debug\Oreilly_Csharp_CookBook.pdb
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\Oreilly_Csharp_CookBook.csprojAssemblyReference.cache
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\MainWindow.g.cs
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\App.g.cs
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\Oreilly_Csharp_CookBook_MarkupCompile.cache
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\Oreilly_Csharp_CookBook_MarkupCompile.lref
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\MainWindow.baml
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\Oreilly_Csharp_CookBook.g.resources
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\Oreilly_Csharp_CookBook.Properties.Resources.resources
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\Oreilly_Csharp_CookBook.csproj.GenerateResource.cache
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\Oreilly_Csharp_CookBook.csproj.CoreCompileInputs.cache
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\Oreilly_Csharp_CookBook.exe
+C:\Users\mrims\source\repos\Oreily_Csharp_cook\src\obj\Debug\Oreilly_Csharp_CookBook.pdb
