@@ -23,6 +23,12 @@ namespace Oreilly_Csharp_CookBook
         public MainWindow()
         {
             this.InitializeComponent();
+
+            // Recipe.1-1
+            //using (var deployer = GoodDeploymentProcess())
+            //{
+            //    deployer.CheckStatus();    
+            //}
         }
     }
 }
