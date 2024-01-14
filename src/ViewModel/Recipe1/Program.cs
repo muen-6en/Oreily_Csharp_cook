@@ -7,6 +7,10 @@ namespace Oreilly_Csharp_CookBook.ViewModel.Recipe1
     {
         readonly IDeploymentService service;
 
+        /// <summary>
+        /// コンストラクタ
+        /// </summary>
+        /// <param name="service">インターフェース</param>
         public Program(IDeploymentService service)
         {
             this.service = service;
@@ -18,7 +22,7 @@ namespace Oreilly_Csharp_CookBook.ViewModel.Recipe1
             var services = new ServiceCollection();
 
             // 依存する型の追加
-            // 型のリクエストに応じてインスタンスを生成する
+            // 型のリクエストに応じてインスタンスを生成
             services.AddTransient<DeploymentArtifacts>();
             services.AddTransient<DeploymentRepository>();
             services.AddTransient<IDeploymentService, DeploymentService>();
@@ -29,9 +33,13 @@ namespace Oreilly_Csharp_CookBook.ViewModel.Recipe1
             // オブジェクトの生存期間を細かく管理する場合
             // services.AddScoped<DeploymentArtifacts>();
 
+            // ServiceProvider型に変換
+            // 依存性が注入された型の管理を行うインスタンス
             ServiceProvider serviceProvider = services.BuildServiceProvider();
 
+            // インターフェイスの実装インスタンスを取得
             IDeploymentService deploymentService = serviceProvider.GetRequiredService<IDeploymentService>();
+
 
             var program = new Program(deploymentService);
 
