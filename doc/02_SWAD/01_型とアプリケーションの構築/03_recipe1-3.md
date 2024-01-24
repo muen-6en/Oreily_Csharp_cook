@@ -16,6 +16,9 @@ Source: ThirdPartyDeploymentService
 
 - IValidatorFactoryインターフェイスとIoCを組み合わせて使う
 - インターフェイスを実装するファクトリークラスでサードパーティ製のオブジェクトを生成する
+- ファクトリークラスはIValidatorFoactoryインターフェイスとIoCを組み合わせてつかう
+- ファクトリークラスの機能はオブジェクトを生成すること
+- 
 
 ### 注意点
 - 例では、シンプルにするために、IoCコンテナは実装していない

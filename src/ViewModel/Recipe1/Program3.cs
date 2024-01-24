@@ -19,6 +19,7 @@ namespace Oreilly_Csharp_CookBook.ViewModel.Recipe1
         /// <param name="factory">ファクトリークラス</param>
         public Program3(IValidatorFactory factory)
         {
+            // ファクトリーで依存性を注入したオブジェクトを設定する
             service = factory.CreateDeploymentService();
         }
 

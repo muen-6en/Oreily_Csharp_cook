@@ -30,6 +30,9 @@ namespace Oreilly_Csharp_CookBook.ViewModel.Recipe1
     /// </summary>
     public class ValidatorFactory : IValidatorFactory
     {
+        // 本来ならここでIoCコンテナを使用して依存性を注入する
+
+        // オブジェクトを生成する
         public ThirdPartyDeploymentService CreateDeploymentService()
         {
             return new ThirdPartyDeploymentService();
